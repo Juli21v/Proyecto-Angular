@@ -1,5 +1,49 @@
-<div class="container">
-    <div class="card">
-    <p>Welcome to Angular page uwu</p>
-</div>
-</div>
+<nav class="navbar navbar-expand-lg navbar-light bg-danger">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Actividad Angular</a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarNavDropdown"
+      aria-controls="navbarNavDropdown"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" routerLink="">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="saveTask">Create task</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="listTask">List task</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="listUser">User</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="listRole">Role</a>
+        </li>
+      </ul>
+    
+    <div class="cont containerfluid">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" mat-button routerLink="register">Sign up</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" mat-button routerLink="login">Login</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" mat-button>Logout</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
